@@ -1,0 +1,33 @@
+- adicionar tarefa
+- editar tarefa
+- excluir tarefa
+- ver todas as tarefas
+- ver dados de uma tarefa
+- marcar / desmarcar tarefa como concluida
+
+
+------------------------------------------------
+
+ROUTE - /task - Adicionar uma tarefa
+
+{
+    id
+    descricao
+    data
+    status - (completed | in_progress)
+}
+
+ROUTE - /task/:id_task - Editar uma tarefa
+
+{
+    id
+    descricao
+    data
+    status - (completed | in_progress)
+}
+
+ROUTE - /task/:id_task - Excluir uma tarefa
+
+ROUTE - /task - Ver todas tarefas
+
+ROUTE - /task/:id_task - Buscar dados - Ver dados de uma tarefa

@@ -1,0 +1,26 @@
+autenticacao vs autorizacao
+
+    autenticacao
+        ver se o usuario existe
+        - email
+        - senha
+        - token
+    
+    autorizacao
+        ver se o usuario tem permissao
+        geralmente feita rota por rota
+        se necessaria, feita junto com a autenticacao
+
+    fluxo de rota protegida:
+        - receber token
+        - verificar validez (autenticacao de token por meio de middleware)
+        - descriptografar
+        - pegar dados usuario
+        - verificar autorizacao do usuário
+
+    ------------------------------------------------------------------------
+
+    maneiras de fazer autenticacao
+        - senha
+        - token (melhor)
+        - certificado digital (utilizada mais por governos e bancos)

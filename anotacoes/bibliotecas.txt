@@ -1,0 +1,4 @@
+ uuid - unique universal id
+ express - servidor
+ yup - validador
+ multer - upload imagens (multipart/form-data)
